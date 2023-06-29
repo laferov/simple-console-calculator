@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.util.Map;
 import java.util.HashMap;
 
+
 public class Main {
     static int num1;
     static int num2;
@@ -22,6 +23,7 @@ public class Main {
                 var input = console.nextLine();
                 if (input.equals("stop")) break;
                 System.out.println(calc(input));
+                isRomeNumbers = false;
         }
 
     }
